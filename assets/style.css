@@ -3,7 +3,7 @@ body {
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(16, 209, 216);
     font-family: Bai Jamjuree;
     color: aliceblue;
     position: fixed;
@@ -23,7 +23,7 @@ footer p {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: aqua;
+    background-color: rgb(45, 129, 150);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33%-6rem);
@@ -31,12 +31,12 @@ footer p {
 
 .cartao__conteudo {
     text-align: center;
-    background-color: rgb(150, 218, 230);
+    background-color: rgb(0, 217, 255);
     height: 100%;
 }
 
 .cartao__conteudo h3 {
-    background-color: rgb(19, 170, 170);
+    background-color: rgb(164, 236, 236);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
