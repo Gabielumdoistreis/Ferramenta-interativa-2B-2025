@@ -52,11 +52,14 @@ footer p {
     border-radius: 0.6rem;
 }
 
-.cartao__conteudo__pergunta{
+.cartao__conteudo__pergunta p{
     color: var(--text-color);
+    font-weight: 500;
+
 
 }
 
 .cartao__conteudo__pergunta{
     color: var(--card-back-color);
+    font-weight: 700;
 }
