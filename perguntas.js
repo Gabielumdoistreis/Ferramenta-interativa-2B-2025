@@ -6,6 +6,6 @@ criacartao(
 
 criaCartao(
 'Fisica',
-'Qual é a primeira Lei de Newton?'
+'Qual é a primeira Lei de Newton?',
 'Lei da Inércia'
 )
