@@ -9,3 +9,8 @@ criaCartao(
 'Qual é a primeira Lei de Newton?',
 'Lei da Inércia'
 )
+criaCartao(
+'Programação'
+'O que é JavaScript',
+'O JavaScript é uma linguagem de programação'
+)
