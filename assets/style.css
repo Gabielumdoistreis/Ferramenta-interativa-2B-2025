@@ -1,27 +1,25 @@
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --text-color: #000000;
+    --card-front-color: rgb(1, 51, 51);
+    --card-back-color: aqua;
 }
 
 body {
     background: url(img/bg-desktop.webp);
-    font-family: Bai jumjuree;
+    font-family: Bai Jamjuree;
 }
 
 footer {
-    background-color: rgb(16, 209, 216);
-    font-family: Bai Jamjuree;
+    background-color: rgb(0, 49, 49);
     color: aliceblue;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 2rem;
 }
 
 footer p {
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
 }
 
@@ -31,15 +29,16 @@ footer p {
 
 .cartao {
     margin: 1rem 1rem;
-
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33%-6rem);
 }
 
 .cartao__conteudo {
+    background-color: var(--card-front-color);
     text-align: center;
-    background-color: var(--card-front-color) height: 100%;
+    background-color: rgb(150, 218, 230);
+    height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
 }
@@ -52,21 +51,23 @@ footer p {
     position: absolute;
     margin: 0.6rem;
     border-radius: 0.6rem;
+    font-size: 1vw;
 }
+
 
 .cartao__conteudo__pergunta p {
+
     color: var(--text-color);
     font-weight: 500;
-
-
 }
 
-.cartao__conteudo__pergunta {
+.cartao__conteudo__resposta p {
+
     color: var(--card-back-color);
     font-weight: 700;
 }
 
-.cartao:hover .cartao_ conteudo {
-    transform: :rotateY(180deg);
+.cartao:hover .cartao__conteudo {
 
+    transform: rotateY(180deg);
 }

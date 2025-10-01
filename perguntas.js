@@ -1,7 +1,7 @@
 criacartao(
 'Programação',
-'O que é JavaScript',
-'O JavaScript é uma linguagem de programação'
+'O que são Hidrocarbonetos',
+'compostos orgânicos formados exclusivamente por átomos de carbono e hidrogênio'
 )
 
 criaCartao(
